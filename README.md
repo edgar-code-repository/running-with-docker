@@ -1,4 +1,4 @@
-RUNNINGS APPS WITH DOCKER
+RUNNING WITH DOCKER
 ---------------------------------------------------------------------------------------------------------
 
 **RabbitMQ**
@@ -23,20 +23,19 @@ Se genera genera archivo Dockerfile que configura usuario default:
 
 ```
 
-Se construye imagen a partir de archivo Dockerfile
+Se construye imagen a partir de archivo Dockerfile y se levanta contenedor a partir de la imagen generada:
 
 ```
     cd rabbitmq
     
     docker build -t rabbit-server .
 
-```
-
-Se levanta contenedor a partir de la imagen generada:
-
-```
     docker run -d --net=host rabbit-server
 
 ```
+
+RabbitMQ ejecutándose en el puerto 15672:
+
+![Screenshot RabbitMQLogin](screenshots/rabbitmq-login.png)
 
 ---------------------------------------------------------------------------------------------------------
