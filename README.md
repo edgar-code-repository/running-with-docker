@@ -11,7 +11,7 @@ Se baja imagen de RabbitMQ:
 
 ```
 
-Se genera genera archivo Dockerfile que configura usuario default:
+Se genera archivo Dockerfile que configura usuario default:
 
 ```
 
@@ -37,5 +37,7 @@ Se construye imagen a partir de archivo Dockerfile y se levanta contenedor a par
 RabbitMQ ejecutándose en el puerto 15672:
 
 ![Screenshot RabbitMQLogin](screenshots/rabbitmq-login.png)
+
+![Screenshot RabbitMQOverview](screenshots/rabbitmq-overview.png)
 
 ---------------------------------------------------------------------------------------------------------
