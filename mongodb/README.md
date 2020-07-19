@@ -1,7 +1,7 @@
 MONGODB
 ---------------------------------------------------------------------------------------------------------
 
-Se baja imagen de MongoDB:
+**Se baja imagen de MongoDB:**
 
 ```
 
@@ -9,7 +9,7 @@ Se baja imagen de MongoDB:
 
 ```
 
-Se levanta contenedor a partir de la imagen anterior:
+**Se levanta contenedor a partir de la imagen anterior:**
 
 ```
 
@@ -17,7 +17,15 @@ Se levanta contenedor a partir de la imagen anterior:
 
 ```
 
-Se accede a Mongo via consola:
+**Se levanta contenedor persistiendo datos en un volumen:**
+
+```
+
+    docker run -v /my/own/dir:/data/db -d -p27017:27017 mongo:4
+
+```
+
+**Se accede a Mongo via consola:**
 
 ```
 
