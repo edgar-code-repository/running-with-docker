@@ -35,7 +35,7 @@ MONGODB
 
 **Se accede a MongoDB desde cliente Robot3T, donde se visualizan datos de la bd atlas:**
 
-![Screenshot Robot3t](screenshots/robot3t-mongodb-client.png)
+![Screenshot Robot3t](../screenshots/robot3t-mongodb-client.png)
 
 
 
