@@ -22,15 +22,7 @@ POSTGRESQL
 
 ```
 
-**Se levanta contenedor a partir de la imagen anterior:**
-
-```
-
-    docker run -d -p27017:27017 postgres_server
-
-```
-
-**Se levanta contenedor persistiendo datos en un volumen:**
+**Se levanta contenedor utilizando la imagen generada previamente:**
 
 ```
 
