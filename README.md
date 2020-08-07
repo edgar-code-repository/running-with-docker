@@ -5,5 +5,7 @@ RUNNING WITH DOCKER
 
 **2. [MongoDB](./mongodb/README.md)**
 
+**3. [PostgreSQL](./postgresql/README.md)**
+
 ---------------------------------------------------------------------------------------------------------
 
