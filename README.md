@@ -7,5 +7,7 @@ RUNNING WITH DOCKER
 
 **3. [PostgreSQL](./postgresql/README.md)**
 
+**4. [Jenkins](./jenkins-blue-ocean/README.md)**
+
 ---------------------------------------------------------------------------------------------------------
 
