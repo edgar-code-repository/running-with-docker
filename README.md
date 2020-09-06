@@ -9,5 +9,7 @@ RUNNING WITH DOCKER
 
 **4. [Jenkins](./jenkins-blue-ocean/README.md)**
 
+**5. [Sonarqube](./sonarqube/README.md)**
+
 ---------------------------------------------------------------------------------------------------------
 
